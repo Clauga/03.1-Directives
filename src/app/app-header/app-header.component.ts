@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppHeaderComponent {
   isAdmin = false;
+  title: string = 'B O N J O U R !';
 
   toggleAdmin() {
     this.isAdmin = !this.isAdmin;
