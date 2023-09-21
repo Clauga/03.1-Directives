@@ -1,0 +1,4 @@
+<h1 [ngStyle]="{'color': isAdmin ? 'red' : 'black'}">B O N J O U R !</h1>
+<button *ngIf="isAdmin">Edit</button>
+<button>View</button>
+<button (click)="toggleAdmin()">Toggle isAdmin</button>
